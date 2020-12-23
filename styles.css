@@ -1,63 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Pirata One", cursive;
-    letter-spacing: 2.5px;
-  }
-  
-  body {
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    flex-direction: column;
-    background-image: url(./julBg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  
-  .container {
-    margin: 0.5rem;
-    border-radius: 25px;
-    background-color: rgba(27, 168, 27, 0.863);
-    height: 90vh;
-  }
-  
-  h1 {
-    font-size: 54px;
-    background: -webkit-linear-gradient(rgb(255, 72, 72), rgb(173, 1, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    outline-style: solid 2px black;
-    padding: 0.5rem 1rem;
-  }
-  
-  h2 {
-    color: rgb(156, 2, 2);
-    padding: 0.5rem 1rem;
-    font-size: 54px;
-    text-align: center;
-  }
-  ul {
-    padding: 4rem;
-    color: whitesmoke;
-    font-size: 24px;
-  }
-  li {
-    padding-top: 2rem;
-    list-style: none;
-  }
-  
-  input,
-  button {
-    margin-left: 2rem;
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
-    border: 5px solid red;
-    outline: none;
-    font-size: 20px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pirata One", cursive;
+  letter-spacing: 2.5px;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(./julBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  margin: 0.5rem;
+  border-radius: 25px;
+  background-color: rgba(27, 168, 27, 0.863);
+  height: 90vh;
+}
+
+h1 {
+  font-size: 44px;
+  background: -webkit-linear-gradient(rgb(255, 72, 72), rgb(173, 1, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  outline-style: solid 2px black;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(156, 2, 2);
+  padding: 0.5rem 1rem;
+  font-size: 54px;
+  text-align: center;
+}
+ul {
+  padding: 2rem 3rem;
+  color: whitesmoke;
+  font-size: 24px;
+}
+li {
+  list-style: none;
+}
+
+input,
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  border: 5px solid red;
+  outline: none;
+  font-size: 20px;
+}
