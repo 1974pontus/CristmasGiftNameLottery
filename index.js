@@ -12,6 +12,7 @@ function names() {
   let li = document.createElement('li');
   li.innerText = inputName;
   ul.appendChild(li);
+  document.getElementById('inputName').value = '';
 }
 
 
